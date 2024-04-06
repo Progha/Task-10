@@ -41,6 +41,49 @@
   height: 100%;
 }
 
+/*  Extra small devices (phones, 600px and down) */ 
+@media only screen and (max-width: 600px) {
+  .chart{
+    height: 30%;
+    width : 10%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .chart{
+    height: 50%;
+    width : 10%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .chart{
+    height: 70%;
+    width : 50%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .chart{
+    height: 100%;
+    width : 100%;
+  }
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .chart{
+    height: 100%;
+    width : 100%;
+  }
+  
+}
+
+
 .chart {
   display: flex;
   flex-direction: column;
@@ -198,6 +241,7 @@ font-weight: normal; color: #333;}
   margin-left: 300px;
   margin-top: 100px;
 }
+
 footer{
   background-color: rgba(7, 7, 228, 0.664);
   width:100%;
@@ -208,4 +252,55 @@ footer{
   border: 5rem solid transparent;
   padding: 15px;
   border-image: url(Images/border_.jpg) 20% round;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .f-img{
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .f-img{
+    height: 150px;
+    width: 150px;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .f-img{
+    height: 180px;
+    width: 180px;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .f-img{
+    height: 250px;
+    width: 250px;
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .f-img{
+    height: 250px;
+    width: 250px;
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+  
 }
